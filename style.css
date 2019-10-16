@@ -1,0 +1,88 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  background-image: url(https://upload.wikimedia.org/wikipedia/commons/d/d0/Background-clouds.jpg);
+  background-size: cover;
+  font-family: Roboto Slab;
+  font-size: 20px;
+}
+h1{
+color: #293462;
+font-weight: lighter;
+
+}
+
+a {
+  color: #45454d
+
+
+}
+
+h2{
+  color: #293462;
+}
+
+
+
+.container {
+    width: 700px;
+    margin: 40px auto;
+    border-radius: 200px;
+    background-color:rgba(255,255,255,0);
+
+
+
+
+
+}
+.card{
+
+    padding: 40px;
+    border-radius: 40px;
+    margin: 20px 0px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #eeeeee;
+    opacity: 0.9;
+
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: 50px;
+
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.btn-blue{
+    background-color: #b18ea6;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
